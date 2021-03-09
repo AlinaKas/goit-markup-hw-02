@@ -1,4 +1,4 @@
-/* Стили для index.html */
+/* Styles for index.html */
 :root {
   --text-color: #757575;
   --title-color: #212121;
@@ -14,7 +14,12 @@ body {
   background-color: var(--primary-bcg-color);
 }
 
-/* Шапка */
+/* Components */
+.list {
+  list-style: none;
+}
+
+/* Header */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -48,15 +53,12 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus {
-  color: var(--accent-color);
-}
-
+.contacts-link:focus,
 .nav-link.current {
   color: var(--accent-color);
 }
 
-/* Портрет героя */
+/* Hero */
 .hero {
   background-color: #2f303a;
 }
@@ -76,15 +78,17 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.06em;
 
   color: var(--primary-bcg-color);
   background-color: var(--accent-color);
   border-color: transparent;
+  cursor: pointer;
 }
+/* End Hero */
 
-/* Преимущества */
+/* Features */
 .features-item-title {
   font-size: 14px;
   line-height: 1.14;
@@ -96,17 +100,16 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+/* End Features */
 
-/* Услуги */
-.services-title,
-.team-title {
+.section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--title-color);
 }
 
-/* Команда */
+/* Team */
 .team-item-name {
   font-weight: 500;
   font-size: 16px;
@@ -121,8 +124,9 @@ body {
   /* text-align: center; */
   color: var(--text-color);
 }
+/* End Team */
 
-/* Футер */
+/* Footer */
 .logo-part-white {
   color: var(--primary-bcg-color);
 }
@@ -144,8 +148,10 @@ body {
 .footer {
   background-color: var(--secondary-bcg-color);
 }
+/* End Footer */
 
-/* Стили для portfolio.html */
+/* Styles for portfolio.html */
+/* Project Filter */
 .project-btn {
   font-family: inherit;
   font-weight: 500;
@@ -155,6 +161,7 @@ body {
   color: var(--title-color);
   background-color: #f5f4fa;
   border-color: transparent;
+  cursor: pointer;
 }
 
 .project-btn:hover,
@@ -162,7 +169,9 @@ body {
   color: var(--primary-bcg-color);
   background-color: var(--accent-color);
 }
+/* End Project Filter */
 
+/* Portfolio */
 .project-card {
   text-decoration: none;
 }
@@ -179,3 +188,4 @@ body {
   line-height: 1.88;
   color: var(--text-color);
 }
+/* End Portfolio */
