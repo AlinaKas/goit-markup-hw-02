@@ -14,34 +14,39 @@
 </head>
 
 <body>
-    <!-- Шапка -->
-    <header class="header">
-        <nav class="nav">
-            <a class="logo" href="./" lang="en">Web<span class="logo-part-black">Studio</span></a>
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
-                <li class="nav-item"><a class="nav-link current" href="./portfolio.html">Портфолио</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
+        <!-- Header -->
+        <header class="header">
+            <nav class="nav">
+                <a class="logo" href="./" lang="en">Web<span class="logo-part-black">Studio</span></a>
+                <ul class="nav-menu list">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
+                    <li class="nav-item"><a class="nav-link current" href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts list">
+                <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contacts-item"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contacts-list">
-            <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contacts-item"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </header>
+        </header>
+   
 
-    <!-- Основное содержимое страницы -->
+    <!-- Main content -->
     <main>
-        <section>
+        <!-- Projects filter -->
+        <section class="project-filter">
             <h1>Наши проекты (будет скрыт)</h1>
-            <ul class="project-menu">
+            <ul class="project-filter-menu list">
                 <li><button class="project-btn" type="button">Веб-сайты</button></li>
                 <li><button class="project-btn" type="button">Приложения</button></li>
                 <li><button class="project-btn" type="button">Все</button></li>
                 <li><button class="project-btn" type="button">Дизайн</button></li>
                 <li><button class="project-btn" type="button">Маркетинг</button></li>
             </ul>
-            <ul class="project-list"></ul>
+        </section>
+        <!-- Portfolio -->
+        <section class="portfolio">
+            <ul class="projects list">
                 <li>
                     <a class="project-card" href="">
                         <h2 class="project-title">Технокряк</h2>
@@ -117,11 +122,11 @@
             </ul>
         </section>
     </main>
-    <!-- Футер -->
+    <!-- Footer -->
     <footer class="footer">
         <a class="logo" href="./" lang="en">Web<span class="logo-part-white">Studio</span></a>
         <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
-        <ul class="contacts-list">
+        <ul class="contacts list">
             <li class="contacts-item"><a class="contacts-link footer-color"
                     href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
