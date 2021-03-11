@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -17,7 +18,7 @@
         <!-- Header -->
         <header class="header">
             <nav class="nav">
-                <a class="logo" href="./" lang="en">Web<span class="logo-part-black">Studio</span></a>
+                <a class="logo" href="./" lang="en">Web<span class="logo-part-dark">Studio</span></a>
                 <ul class="nav-menu list">
                     <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
                     <li class="nav-item"><a class="nav-link current" href="./portfolio.html">Портфолио</a></li>
@@ -33,19 +34,16 @@
 
     <!-- Main content -->
     <main>
-        <!-- Projects filter -->
-        <section class="project-filter">
-            <h1>Наши проекты (будет скрыт)</h1>
-            <ul class="project-filter-menu list">
+        <!-- Portfolio desk -->
+        <section class="section">
+            <h1 class="section-title visually-hidden">Наши проекты</h1>
+            <ul class="project-filter list">
                 <li><button class="project-btn" type="button">Веб-сайты</button></li>
                 <li><button class="project-btn" type="button">Приложения</button></li>
                 <li><button class="project-btn" type="button">Все</button></li>
                 <li><button class="project-btn" type="button">Дизайн</button></li>
                 <li><button class="project-btn" type="button">Маркетинг</button></li>
             </ul>
-        </section>
-        <!-- Portfolio -->
-        <section class="portfolio">
             <ul class="projects list">
                 <li>
                     <a class="project-card" href="">
@@ -89,7 +87,7 @@
                 </li>
                 <li>
                     <a class="project-card" href="">
-                        <h2 class="project-title"><span lang="en">Inspiration has no Borders</span></h2>
+                        <h2 class="project-title" lang="en">Inspiration has no Borders</h2>
                         <p class="project-direction">Веб-сайт</p>
                         <img src="./images/img-portfolio/website-noborders-6.jpg" width="370" height="294" alt="Веб-сайт на мониторе компьютера">
                         <p></p>
@@ -113,18 +111,18 @@
                 </li>
                 <li>
                     <a class="project-card" href="">
-                        <h2 class="project-title"><span lang="en">Growing Business</span></h2>
+                        <h2 class="project-title" lang="en">Growing Business</h2>
                         <p class="project-direction">Приложение</p>
                         <img src="./images/img-portfolio/app-business-9.jpg" width="370" height="294" alt="Веб-сайт на мониторе ноутбука">
                         <p></p>
                     </a>
                 </li>
             </ul>
-        </section>
+    
     </main>
     <!-- Footer -->
     <footer class="footer">
-        <a class="logo" href="./" lang="en">Web<span class="logo-part-white">Studio</span></a>
+        <a class="logo" href="./" lang="en">Web<span class="logo-part-light">Studio</span></a>
         <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
         <ul class="contacts list">
             <li class="contacts-item"><a class="contacts-link footer-color"
